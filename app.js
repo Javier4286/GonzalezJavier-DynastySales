@@ -6,19 +6,19 @@ app.get("/", (req, res) => {
   res.send("<h1>HOME");
 });
 
-app.get("/1", (req, res) => {
+app.get("/detalle-producto", (req, res) => {
   res.send("<h1>DETAIL PRODUCT");
 });
 
-app.get("/2", (req, res) => {
+app.get("/registrarme", (req, res) => {
   res.send("<h1>REGISTER");
 });
 
-app.get("/3", (req, res) => {
+app.get("/inicio-sesion", (req, res) => {
   res.send("<h1>LOGIN");
 });
 
-app.get("/4", (req, res) => {
+app.get("/carrito", (req, res) => {
   res.send("<h1>CARRITO");
 });
 
